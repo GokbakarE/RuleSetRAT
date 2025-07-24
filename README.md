@@ -1,4 +1,4 @@
-# Demo Package Information
+# Package Information
 
 This package contains a **demonstration** of variant-specific YARA rules and detailed analysis reports for selected Remote Access Trojans (RATs). It is provided **strictly for evaluation purposes**.
 
@@ -12,7 +12,7 @@ Each RAT family is organized in its own folder:
 - `CAPA/` – Static analysis outputs
 - `DIE/` – PE structure and metadata
 
-## 🎯 Full Package Overview
+## 🎯 Package Overview
 
 The full package includes YARA rules, analysis reports, and encrypted samples for **94 unique RAT/Worm builders**, such as: 
  A_311_Death_v0_99_8          NanoCore_1_0_3_0
