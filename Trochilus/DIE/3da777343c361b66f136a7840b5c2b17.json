@@ -1,0 +1,50 @@
+{
+    "detects": [
+        {
+            "filetype": "PE32",
+            "info": "",
+            "offset": "0",
+            "parentfilepart": "Header",
+            "size": "331531",
+            "values": [
+                {
+                    "info": "I386, 32-bit, GUI",
+                    "name": "Windows",
+                    "string": "Operation system: Windows(95)[I386, 32-bit, GUI]",
+                    "type": "Operation system",
+                    "version": "95"
+                },
+                {
+                    "info": "",
+                    "name": "Microsoft Linker",
+                    "string": "Linker: Microsoft Linker(6.0)",
+                    "type": "Linker",
+                    "version": "6.0"
+                },
+                {
+                    "info": "C",
+                    "name": "Microsoft Visual C/C++",
+                    "string": "Compiler: Microsoft Visual C/C++(13.10.4035)[C]",
+                    "type": "Compiler",
+                    "version": "13.10.4035"
+                },
+                {
+                    "info": "",
+                    "name": "C",
+                    "string": "Language: C",
+                    "type": "Language",
+                    "version": ""
+                },
+                {
+                    "info": "lzma,solid",
+                    "name": "Nullsoft Scriptable Install System",
+                    "string": "Installer: Nullsoft Scriptable Install System[lzma,solid]",
+                    "type": "Installer",
+                    "version": ""
+                }
+            ]
+        }
+    ]
+}
+
+
