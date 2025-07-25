@@ -40,6 +40,6 @@ rule Vanguard_Remote_Administration_0_1_Beta
         pe.imports("IMAGEHLP.DLL", "MakeSureDirectoryPathExists") and
         math.entropy(0, filesize) >= 6.1 and math.entropy(0, filesize) <= 6.2 and
         filesize >= 50 * 1024 and filesize <= 52 * 1024 and
-        pe.overlay.size == 0 and // need to be comfirmed
+        pe.overlay.size == 0 and 
         9 of ($s*)
 }
