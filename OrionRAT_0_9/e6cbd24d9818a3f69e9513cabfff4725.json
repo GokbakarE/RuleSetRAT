@@ -1,0 +1,50 @@
+{
+    "detects": [
+        {
+            "filetype": "PE32",
+            "info": "",
+            "offset": "0",
+            "parentfilepart": "Header",
+            "size": "502272",
+            "values": [
+                {
+                    "info": "I386, 32-bit, GUI",
+                    "name": "Windows",
+                    "string": "Operation system: Windows(95)[I386, 32-bit, GUI]",
+                    "type": "Operation system",
+                    "version": "95"
+                },
+                {
+                    "info": "GUI32",
+                    "name": "Turbo Linker",
+                    "string": "Linker: Turbo Linker(2.25*,Delphi)[GUI32]",
+                    "type": "Linker",
+                    "version": "2.25*,Delphi"
+                },
+                {
+                    "info": "Enterprise",
+                    "name": "Embarcadero Delphi",
+                    "string": "Compiler: Embarcadero Delphi(2009-2010)[Enterprise]",
+                    "type": "Compiler",
+                    "version": "2009-2010"
+                },
+                {
+                    "info": "",
+                    "name": "Object Pascal (Delphi)",
+                    "string": "Language: Object Pascal (Delphi)",
+                    "type": "Language",
+                    "version": ""
+                },
+                {
+                    "info": "",
+                    "name": "Autorun Pro Enterprise II",
+                    "string": "Installer: Autorun Pro Enterprise II",
+                    "type": "Installer",
+                    "version": ""
+                }
+            ]
+        }
+    ]
+}
+
+
