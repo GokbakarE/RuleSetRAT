@@ -1,0 +1,57 @@
+{
+    "detects": [
+        {
+            "filetype": "PE32",
+            "info": "",
+            "offset": "0",
+            "parentfilepart": "Header",
+            "size": "187904",
+            "values": [
+                {
+                    "info": "I386, 32-bit, GUI",
+                    "name": "Windows",
+                    "string": "Operation system: Windows(95)[I386, 32-bit, GUI]",
+                    "type": "Operation system",
+                    "version": "95"
+                },
+                {
+                    "info": "",
+                    "name": "Microsoft Linker",
+                    "string": "Linker: Microsoft Linker(8.0)",
+                    "type": "Linker",
+                    "version": "8.0"
+                },
+                {
+                    "info": "",
+                    "name": "VB.NET",
+                    "string": "Compiler: VB.NET",
+                    "type": "Compiler",
+                    "version": ""
+                },
+                {
+                    "info": "",
+                    "name": "VB.NET",
+                    "string": "Language: VB.NET",
+                    "type": "Language",
+                    "version": ""
+                },
+                {
+                    "info": "",
+                    "name": ".NET Framework",
+                    "string": "Library: .NET Framework(Legacy, CLR v2.0.50727)",
+                    "type": "Library",
+                    "version": "Legacy, CLR v2.0.50727"
+                },
+                {
+                    "info": "",
+                    "name": "Visual Studio",
+                    "string": "Tool: Visual Studio",
+                    "type": "Tool",
+                    "version": ""
+                }
+            ]
+        }
+    ]
+}
+
+
