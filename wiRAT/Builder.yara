@@ -4,7 +4,7 @@ rule wiRAT
         description = "Detects wiRAT malware builder's malware, special for that variant of builder"
         author = "GokbakarE"
         date = "29-06-2025"
-        license = "MIT License"
+        license = "GNU AGPLv3"
     strings:
         $EP = { FF 25 00 20 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 }
         $Overlay = { 71 77 65 72 74 }
