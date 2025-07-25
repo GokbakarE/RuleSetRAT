@@ -4,7 +4,7 @@ rule VorteX_RAT
         description = "Detects VorteX_RAT malware builder's malware, special for that variant of builder"
         author = "GokbakarE"
         date = "29-06-2025"
-        license = "MIT License"
+        license = "GNU AGPLv3"
     strings:
         $EP = { 55 8B EC 83 C4 F0 53 56 B8 EC E6 43 00 E8 D2 82 FC FF BB 7C 1A 44 00 BE 44 1C 44 00 33 C0 55 68 DA EA 43 00 64 FF 30 64 89 20 B2 01 A1 88 83 43 00 E8 F2 54 FC FF 89 06 8B 06 C6 40 08 00 68 E8 EA 43 00 E8 DC 85 FC FF 68 D0 07 00 00 E8 7E EC FC FF B8 40 1C 44 00 E8 78 D2 FF FF 84 C0 0F 84 C5 01 00 00 BA AC 1A 44 00 B9 64 00 00 00 A1 40 }
         $s1 = "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\" 
