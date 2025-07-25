@@ -4,7 +4,7 @@ rule Z_dem0n12
         description = "Detects Z_dem0n12 malware builder's malware, special for that variant of builder"
         author = "GokbakarE"
         date = "29-06-2025"
-        license = "MIT License"
+        license = "GNU AGPLv3"
     strings:
         $EP = { 55 8B EC 83 C4 F0 B8 50 BA 4A 00 E8 EC B0 F5 FF A1 34 E0 4A 00 8B 00 E8 18 C7 FA FF A1 34 E0 4A 00 8B 00 33 D2 E8 16 C3 FA FF 8B 0D A8 DC 4A 00 A1 34 E0 4A 00 8B 00 8B 15 A4 F6 49 00 E8 0A C7 FA FF A1 34 E0 4A 00 8B 00 E8 7E C7 FA FF E8 0D 8A F5 FF 90 00 00 00 00 00 00 00 00 00 00 00 00 }
         $s1 = "SYSTEM\\CurrentControlSet\\Control\\TimeZoneInformation" 
