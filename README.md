@@ -5,7 +5,7 @@ This package contains a **demonstration** of variant-specific YARA rules and det
 ## 📦 Package Contents:
 - `*.yara` – Variant-specific detection rules
 - `*.json` – CAPA static analysis reports
-- `*.json` – DIE PE information and metadata
+- `*.json` – DIE(Detect It Easy) PE information and metadata
 
 Each RAT family is organized in its own folder:
 - `Builder.yara` – Detection rule for the specific variant
