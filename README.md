@@ -77,7 +77,7 @@ Please use this project responsibly, and only within the boundaries of ethical h
 ---
 
 ## 📜 License
-See `LICENSE.md` for usage terms and ownership information.
+See `LICENSE` for usage terms and ownership information.
 
 ---
 
