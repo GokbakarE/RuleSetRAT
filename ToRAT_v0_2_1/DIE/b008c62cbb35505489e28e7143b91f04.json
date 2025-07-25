@@ -1,0 +1,57 @@
+{
+    "detects": [
+        {
+            "filetype": "PE32",
+            "info": "",
+            "offset": "0",
+            "parentfilepart": "Header",
+            "size": "4467918",
+            "values": [
+                {
+                    "info": "I386, 32-bit, GUI",
+                    "name": "Windows",
+                    "string": "Operation system: Windows(XP)[I386, 32-bit, GUI]",
+                    "type": "Operation system",
+                    "version": "XP"
+                },
+                {
+                    "info": "",
+                    "name": "AutoIt",
+                    "string": "Format: AutoIt(3.XX)",
+                    "type": "Format",
+                    "version": "3.XX"
+                },
+                {
+                    "info": "",
+                    "name": "Microsoft Linker",
+                    "string": "Linker: Microsoft Linker(12.00.31101)",
+                    "type": "Linker",
+                    "version": "12.00.31101"
+                },
+                {
+                    "info": "POGO_O_CPP",
+                    "name": "Microsoft Visual C/C++",
+                    "string": "Compiler: Microsoft Visual C/C++(18.00.31101)[POGO_O_CPP]",
+                    "type": "Compiler",
+                    "version": "18.00.31101"
+                },
+                {
+                    "info": "",
+                    "name": "C++",
+                    "string": "Language: C++",
+                    "type": "Language",
+                    "version": ""
+                },
+                {
+                    "info": "",
+                    "name": "Visual Studio",
+                    "string": "Tool: Visual Studio(2013)",
+                    "type": "Tool",
+                    "version": "2013"
+                }
+            ]
+        }
+    ]
+}
+
+
