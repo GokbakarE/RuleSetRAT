@@ -1,0 +1,43 @@
+{
+    "detects": [
+        {
+            "filetype": "PE32",
+            "info": "",
+            "offset": "0",
+            "parentfilepart": "Header",
+            "size": "2635535",
+            "values": [
+                {
+                    "info": "I386, 32-bit, GUI",
+                    "name": "Windows",
+                    "string": "Operation system: Windows(2000)[I386, 32-bit, GUI]",
+                    "type": "Operation system",
+                    "version": "2000"
+                },
+                {
+                    "info": "GUI32",
+                    "name": "Turbo Linker",
+                    "string": "Linker: Turbo Linker(2.25*,Delphi)[GUI32]",
+                    "type": "Linker",
+                    "version": "2.25*,Delphi"
+                },
+                {
+                    "info": "Enterprise",
+                    "name": "Embarcadero Delphi",
+                    "string": "Compiler: Embarcadero Delphi(2010)[Enterprise]",
+                    "type": "Compiler",
+                    "version": "2010"
+                },
+                {
+                    "info": "",
+                    "name": "Object Pascal (Delphi)",
+                    "string": "Language: Object Pascal (Delphi)",
+                    "type": "Language",
+                    "version": ""
+                }
+            ]
+        }
+    ]
+}
+
+
