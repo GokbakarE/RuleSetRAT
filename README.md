@@ -1,4 +1,4 @@
-# 🛡️ Malware Research Toolkit: YARA Detection & Static Analysis Reports
+# 🛡️ RuleSetRAT: Variant-Specific YARA Rules & Malware Builder Analysis
 
 This repository provides a curated set of variant-specific YARA detection rules and detailed static analysis reports for various Remote Access Trojan (RAT) families and builder samples. The goal is to support professionals in the cybersecurity field with actionable intelligence, reverse engineering insights, and precision detection capabilities.
 
