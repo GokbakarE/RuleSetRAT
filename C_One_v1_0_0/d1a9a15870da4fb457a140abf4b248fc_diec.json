@@ -1,0 +1,29 @@
+{
+    "detects": [
+        {
+            "filetype": "PE32",
+            "info": "",
+            "offset": "0",
+            "parentfilepart": "Header",
+            "size": "9216",
+            "values": [
+                {
+                    "info": "",
+                    "name": "Microsoft Linker",
+                    "string": "Linker: Microsoft Linker(5.12.8034)",
+                    "type": "Linker",
+                    "version": "5.12.8034"
+                },
+                {
+                    "info": "C++",
+                    "name": "Microsoft Visual C/C++",
+                    "string": "Compiler: Microsoft Visual C/C++(12.00.8168)[C++]",
+                    "type": "Compiler",
+                    "version": "12.00.8168"
+                }
+            ]
+        }
+    ]
+}
+
+

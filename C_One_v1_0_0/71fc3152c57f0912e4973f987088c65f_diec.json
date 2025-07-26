@@ -1,0 +1,22 @@
+{
+    "detects": [
+        {
+            "filetype": "PE32",
+            "info": "",
+            "offset": "0",
+            "parentfilepart": "Header",
+            "size": "5273",
+            "values": [
+                {
+                    "info": "",
+                    "name": "FSG",
+                    "string": "Packer: FSG(2.0)",
+                    "type": "Packer",
+                    "version": "2.0"
+                }
+            ]
+        }
+    ]
+}
+
+
