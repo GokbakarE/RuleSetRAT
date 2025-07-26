@@ -1,0 +1,50 @@
+{
+    "detects": [
+        {
+            "filetype": "PE32",
+            "info": "",
+            "offset": "0",
+            "parentfilepart": "Header",
+            "size": "55538",
+            "values": [
+                {
+                    "info": "I386, 32-bit, GUI",
+                    "name": "Windows",
+                    "string": "Operation system: Windows(95)[I386, 32-bit, GUI]",
+                    "type": "Operation system",
+                    "version": "95"
+                },
+                {
+                    "info": "",
+                    "name": "Microsoft Linker",
+                    "string": "Linker: Microsoft Linker(6.00.8047)",
+                    "type": "Linker",
+                    "version": "6.00.8047"
+                },
+                {
+                    "info": "C++",
+                    "name": "Microsoft Visual C/C++",
+                    "string": "Compiler: Microsoft Visual C/C++(12.00.9782)[C++]",
+                    "type": "Compiler",
+                    "version": "12.00.9782"
+                },
+                {
+                    "info": "",
+                    "name": "C++",
+                    "string": "Language: C++",
+                    "type": "Language",
+                    "version": ""
+                },
+                {
+                    "info": "",
+                    "name": "Visual Studio",
+                    "string": "Tool: Visual Studio(6.0)",
+                    "type": "Tool",
+                    "version": "6.0"
+                }
+            ]
+        }
+    ]
+}
+
+
