@@ -1,0 +1,50 @@
+{
+    "detects": [
+        {
+            "filetype": "PE32",
+            "info": "",
+            "offset": "0",
+            "parentfilepart": "Header",
+            "size": "255968",
+            "values": [
+                {
+                    "info": "I386, 32-bit, GUI",
+                    "name": "Windows",
+                    "string": "Operation system: Windows(XP)[I386, 32-bit, GUI]",
+                    "type": "Operation system",
+                    "version": "XP"
+                },
+                {
+                    "info": "GUI32",
+                    "name": "Turbo Linker",
+                    "string": "Linker: Turbo Linker(2.25*,Delphi)[GUI32]",
+                    "type": "Linker",
+                    "version": "2.25*,Delphi"
+                },
+                {
+                    "info": "",
+                    "name": "Borland Delphi",
+                    "string": "Compiler: Borland Delphi",
+                    "type": "Compiler",
+                    "version": ""
+                },
+                {
+                    "info": "",
+                    "name": "Object Pascal (Delphi)",
+                    "string": "Language: Object Pascal (Delphi)",
+                    "type": "Language",
+                    "version": ""
+                },
+                {
+                    "info": "modified",
+                    "name": "UPX",
+                    "string": "Packer: UPX[modified]",
+                    "type": "Packer",
+                    "version": ""
+                }
+            ]
+        }
+    ]
+}
+
+
