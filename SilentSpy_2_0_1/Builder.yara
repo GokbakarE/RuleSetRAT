@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule SilentSpy_2_0_1
 {
     meta:
