@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule CobianRAT_v1_0_40_7
 {
     meta:
