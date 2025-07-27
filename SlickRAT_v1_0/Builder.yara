@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule SlickRAT_v1_0
 {
     meta:
