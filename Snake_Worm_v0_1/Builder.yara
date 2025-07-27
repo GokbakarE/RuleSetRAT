@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule Snake_Worm_v0_1
 {
     meta:
