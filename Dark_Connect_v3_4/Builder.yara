@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule Dark_Connect_v3_4
 {
     meta:
