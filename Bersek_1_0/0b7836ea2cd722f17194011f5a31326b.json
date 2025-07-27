@@ -1,0 +1,29 @@
+{
+    "detects": [
+        {
+            "filetype": "PE32",
+            "info": "",
+            "offset": "0",
+            "parentfilepart": "Header",
+            "size": "79665",
+            "values": [
+                {
+                    "info": "I386, 32-bit, GUI",
+                    "name": "Windows",
+                    "string": "Operation system: Windows(95)[I386, 32-bit, GUI]",
+                    "type": "Operation system",
+                    "version": "95"
+                },
+                {
+                    "info": "modified",
+                    "name": "UPX",
+                    "string": "Packer: UPX[modified]",
+                    "type": "Packer",
+                    "version": ""
+                }
+            ]
+        }
+    ]
+}
+
+
