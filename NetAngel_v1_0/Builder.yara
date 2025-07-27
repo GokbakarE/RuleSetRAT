@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule NetAngel_v1_0
 {
     meta:
