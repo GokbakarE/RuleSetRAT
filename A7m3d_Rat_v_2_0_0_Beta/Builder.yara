@@ -31,6 +31,6 @@ rule A7m3d_Rat_v_2_0_0_Beta
         pe.imports("mscoree.dll", "_CorExeMain") and
         math.entropy(0, filesize) >= 5.7 and math.entropy(0, filesize) <= 5.8 and
         filesize >= 79 * 1024 and filesize <= 81 * 1024 and
-        pe.overlay.size == 0 and // need to be comfirmed
+        pe.overlay.size == 0 and 
         8 of ($s*)
 }
