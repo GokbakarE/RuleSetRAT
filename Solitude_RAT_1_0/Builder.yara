@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule Solitude_RAT_1_0
 {
     meta:
