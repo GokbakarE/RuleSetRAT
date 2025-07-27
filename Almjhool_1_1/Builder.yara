@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule Almjhool_1_1
 {
     meta:
