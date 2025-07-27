@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule ToRAT_v0_2_1
 {
     meta:
