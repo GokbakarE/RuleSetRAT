@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule A7m3d_Rat_v_2_0_0_Beta
 {
     meta:
