@@ -30,6 +30,20 @@ By combining rule-based detection with structured static analysis data, this rep
 
 ---
 
+## 🧬 Sample Provenance & Integrity
+
+All static analysis and detection rules in this project are based on binary samples manually generated in controlled QEMU sandbox environments. These samples were produced by executing legacy malware builder applications and capturing their compiled payloads under isolated conditions.
+
+Notably, many of these samples are not available on public platforms such as VirusTotal or Hybrid Analysis — they were created from builder stubs using internal, private infrastructure.
+
+⚠️ For ethical and legal reasons, we do not publicly share any decrypted or functional malware samples.
+
+We also do not provide full behavioral analysis traces to the public at this time. Select metadata (e.g., YARA hits, CAPA features, PE headers) is available within the repository for research purposes.
+
+Requests for sample access, behavioral logs, or sandbox exports will be respectfully declined.
+
+---
+
 ## 🔁 Commit Structure & Workflow
 
 We deliberately maintained a granular commit history. Each change, rule addition, or metadata update was committed separately to preserve traceability and make the repository auditable.
