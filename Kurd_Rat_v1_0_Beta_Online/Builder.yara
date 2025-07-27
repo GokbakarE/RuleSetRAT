@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule Kurd_Rat_v1_0_Beta_Online
 {
     meta:
