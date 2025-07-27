@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule FunFucker_0_8_Alpha
 {
     meta:
