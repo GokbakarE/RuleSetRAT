@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule Dark_Virus_RAT_v0_2_0_Beta
 {
     meta:
