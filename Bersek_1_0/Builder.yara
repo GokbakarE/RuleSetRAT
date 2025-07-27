@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule Bersek_1_0
 {
     meta:
