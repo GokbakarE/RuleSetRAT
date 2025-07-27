@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule Pandora_RAT_v1_1
 {
     meta:
