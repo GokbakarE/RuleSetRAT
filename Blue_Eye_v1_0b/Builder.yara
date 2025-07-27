@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule Blue_Eye_v1_0b
 {
     meta:
