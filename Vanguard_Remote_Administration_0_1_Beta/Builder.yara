@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule Vanguard_Remote_Administration_0_1_Beta
 {
     meta:
