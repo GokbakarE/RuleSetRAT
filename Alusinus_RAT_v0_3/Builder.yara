@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule Alusinus_RAT_v0_3
 {
     meta:
