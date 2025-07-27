@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule TsuRat_v0_3
 {
     meta:
