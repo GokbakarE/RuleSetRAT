@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule Slh_2_0
 {
     meta:
