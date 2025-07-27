@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule FeRAT_v1_00
 {
     meta:
