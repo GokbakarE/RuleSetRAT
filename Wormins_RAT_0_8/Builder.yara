@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule Wormins_RAT_0_8
 {
     meta:
