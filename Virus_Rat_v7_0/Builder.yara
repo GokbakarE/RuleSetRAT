@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule Virus_Rat_v7_0
 {
     meta:
