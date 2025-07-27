@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule Furax_1_0b2
 {
     meta:
