@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule BHF_Rat_v0_2_Beta
 {
     meta:
