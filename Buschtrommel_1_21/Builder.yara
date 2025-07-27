@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule Buschtrommel_1_21
 {
     meta:
