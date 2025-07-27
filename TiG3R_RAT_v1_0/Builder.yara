@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule TiG3R_RAT_v1_0
 {
     meta:
