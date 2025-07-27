@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule A_311_Death_v1_00_A
 {
     meta:
