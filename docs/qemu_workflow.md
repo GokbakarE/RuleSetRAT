@@ -4,7 +4,7 @@ This document describes how malware samples were generated in a secure, reproduc
 
 ## ⚙️ Setup
 
-- Guest OS: Windows XP SP3
+- Guest OS: Windows 7
 - Host OS: Linux (Ubuntu 22.04)
 - Virtualization: QEMU + qcow2 snapshotting
 - Network: Disabled (airgapped)
