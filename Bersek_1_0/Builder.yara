@@ -36,6 +36,5 @@ rule Bersek_1_0
         math.entropy(0, filesize) >= 7.83 and math.entropy(0, filesize) <= 7.88 and
         filesize >= 75 * 1024 and filesize <= 80 * 1024 and
         $Overlay in (pe.overlay.offset .. pe.overlay.offset + pe.overlay.size) and 
-        // pe.overlay.offset == 0x7200 and -----> idk why didn't work, Overlay offset is 0x7200 !!!!
         9 of ($s*)
 }
