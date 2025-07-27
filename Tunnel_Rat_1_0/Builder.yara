@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule Tunnel_Rat_1_0
 {
     meta:
