@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule Exception_1_0_Beta
 {
     meta:
