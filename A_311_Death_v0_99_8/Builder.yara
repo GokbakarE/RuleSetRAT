@@ -31,6 +31,6 @@ rule A_311_Death_v0_99_8
         pe.imports("KERNEL32.dll", "GetProcAddress") and
         math.entropy(0, filesize) >= 7.4 and math.entropy(0, filesize) <= 7.6 and
         filesize >= 21 * 1024 and filesize <= 24 * 1024 and
-        pe.overlay.size == 0 and // need to be comfirmed
+        pe.overlay.size == 0 and
         8 of ($s*)
 }
