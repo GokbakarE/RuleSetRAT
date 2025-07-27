@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule AntiLamer_BackDoor_v1_2
 {
     meta:
