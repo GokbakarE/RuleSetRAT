@@ -35,7 +35,7 @@ The compiled sample produced a PE file with high entropy, unique timestamp, and 
 ## 🚧 Builder Behavior (Internal)
 
 - Each sample was generated using a clean snapshot
-- Builder executed inside QEMU WinXP
+- Builder executed inside QEMU Win7
 - No network traffic allowed during compilation
 - QCOW2 images reset after each generation
 
