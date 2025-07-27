@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule Z_dem0n12
 {
     meta:
