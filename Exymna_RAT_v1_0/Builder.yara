@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule Exymna_RAT_v1_0
 {
     meta:
