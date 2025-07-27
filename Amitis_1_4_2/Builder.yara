@@ -36,6 +36,6 @@ rule Amitis_1_4_2
         pe.imports("wininet.dll", "InternetGetConnectedState") and
         math.entropy(0, filesize) >= 7.9 and math.entropy(0, filesize) <= 8.0 and
         filesize >= 305 * 1024 and filesize <= 307 * 1024 and
-        pe.overlay.size == 0 and // need to be comfirmed
+        pe.overlay.size == 0 and 
         8 of ($s*)
 }
