@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule Bandook_v1_1
 {
     meta:
