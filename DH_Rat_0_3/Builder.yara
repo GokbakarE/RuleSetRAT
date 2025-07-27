@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule DH_Rat_0_3
 {
     meta:
