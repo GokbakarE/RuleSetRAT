@@ -1,6 +1,6 @@
 rule A_311_Death_v1_02
 {
-    meta: //Description...
+    meta:
         description = "Detects A_311_Death_v1_02 malware builder's malware, special for that variant of builder"
         author = "GokbakarE"
         date = "25-06-2025"
@@ -10,7 +10,7 @@ rule A_311_Death_v1_02
         $s1 = "rz-{9#.r6"
         $s2 = "<t>u6v.0w&O"
         $s3 = "GetProcAddress"
-        $s4 = "LoadLibraryA" // Top 10 longest strings from builded malwares
+        $s4 = "LoadLibraryA" 
         $s5 = "KERNEL32.dll"
         $s6 = "Ngh:yi2j0"
         $s7 = "DEFGHIJK"
@@ -22,7 +22,7 @@ rule A_311_Death_v1_02
         pe.entry_point == 0x58CB and
         $EP at (pe.entry_point) and // $EP checks for Entry Point
         uint32(0x34) == 0x000126CB and//Optional Header's EP 
-        pe.timestamp == 0x21584450 and // date 
+        pe.timestamp == 0x21584450 and 
         pe.data_directories[6].virtual_address == 0x0 and pe.data_directories[6].size == 0x0 and
         pe.data_directories[1].virtual_address == 0x12790 and pe.data_directories[1].size == 0x34 and
         pe.data_directories[2].virtual_address == 0xD000 and pe.data_directories[2].size == 0x3A0 and
@@ -31,6 +31,6 @@ rule A_311_Death_v1_02
         pe.imports("KERNEL32.dll", "GetProcAddress") and
         math.entropy(0, filesize) >= 7.6 and math.entropy(0, filesize) <= 7.7 and
         filesize >= 21 * 1024 and filesize <= 24 * 1024 and
-        pe.overlay.size == 0 and // need to be comfirmed
+        pe.overlay.size == 0 and 
         8 of ($s*)
 }
