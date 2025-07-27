@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule AK47_RAT
 {
     meta:
