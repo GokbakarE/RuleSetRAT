@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule NanoCore_1_2_2_0
 {
     meta:
