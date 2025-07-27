@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule DDoSeR_3_4
 {
     meta:
