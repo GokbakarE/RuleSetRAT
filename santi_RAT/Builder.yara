@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule santi_RAT
 {
     meta:
