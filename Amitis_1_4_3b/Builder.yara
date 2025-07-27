@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule Amitis_1_4_3b
 {
     meta:
@@ -40,6 +42,6 @@ rule Amitis_1_4_3b
         pe.imports("IMAGEHLP.DLL", "MapAndLoad") and
         math.entropy(0, filesize) >= 7.9 and math.entropy(0, filesize) <= 8.0 and
         filesize >= 296 * 1024 and filesize <= 298 * 1024 and
-        pe.overlay.size == 0 and // need to be comfirmed
+        pe.overlay.size == 0 and 
         9 of ($s*)
 }
