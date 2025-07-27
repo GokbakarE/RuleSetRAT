@@ -1,3 +1,5 @@
+import "pe"
+import "math"
 rule Amitis_1_4_2
 {
     meta:
