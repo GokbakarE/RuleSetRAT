@@ -92,6 +92,21 @@ All documentation is written for clarity, reproducibility, and transparency. We 
 
 Please refer to the LICENSE file for terms of use, redistribution, and contribution guidelines.
 
+## Legal Notice
+
+Use of this project is subject to important legal terms.
+
+Please read the full [LEGAL_NOTICE.md](./LEGAL_NOTICE.md) file for:
+
+- Copyright and attribution requirements
+- Ethical and prohibited use cases
+- Disclaimer of liability
+- International compliance terms
+
+Unauthorized removal of author information (`GokbakarE`) or project name (`RuleSetRAT`) is strongly discouraged and may violate license intent.
+
+Use responsibly.
+
 ---
 
 © 2025 GokbakarE. All rights reserved.
